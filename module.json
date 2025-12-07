@@ -1,0 +1,34 @@
+{
+  "id": "perplexity-dnd-translator",
+  "title": "Perplexity D&D Translator",
+  "version": "2.2.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "MyName",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [],
+  "description": "Perplexity API를 사용하여 D&D 텍스트와 저널을 고퀄리티로 번역합니다.",
+  
+  "url": "https://github.com/hadin224125/perplexity-dnd-translator",
+  "manifest": "https://github.com/hadin224125/perplexity-dnd-translator/releases/latest/download/module.json",
+  "download": "https://github.com/hadin224125/perplexity-dnd-translator/releases/latest/download/module.zip"
+}
